@@ -1,0 +1,47 @@
+h1, p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+    background-color:  beige;
+    border: 1px solid gray;
+    display: inline-block;
+    
+}
+
+.tabuleiro {
+    text-align: center;
+}
+
+.o{
+    position: relative;
+  
+}
+
+.o:after{
+    position: absolute;
+    content: url(./Assets/logo-cruzeiro-256\ \(1\).png);
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.x{
+    position: relative;
+    
+}
+
+.x:after {
+    position: absolute;
+    content: url(./Assets/logo-atletico-mineiro-256\ \(1\).png);
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
