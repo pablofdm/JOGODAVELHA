@@ -1,3 +1,5 @@
+// iniciando os quadrados e adicionando o evento cliquei neles
+
 document.addEventListener('DOMContentLoaded', () => {
 
     let quadrados = document.querySelectorAll(".quadrado");
@@ -6,6 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 
 })
+
+// função adicionar e testando se após o clique teve ganhador
 
 function segurarClique(event) {
 
@@ -27,6 +31,8 @@ function segurarClique(event) {
     };
     updateQuadrados();
 }
+
+// função de atualizar os quadrados com o content do css somente se ele estiver vazio.
 
 function updateQuadrados() {
 
